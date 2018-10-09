@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MenuActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/m_BtnColor"
+        android:text="@string/m_deleteBtn"
+        android:textColor="@color/m_TxtColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateBtn" />
+
+    <Button
+        android:id="@+id/newBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/m_BtnColor"
+        android:text="@string/m_newBtn"
+        android:textColor="@color/m_TxtColor"
+        app:layout_constraintBottom_toTopOf="@+id/deleteBtn"
+        app:layout_constraintEnd_toStartOf="@+id/updateBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/m_BtnColor"
+        android:text="@string/m_updateBtn"
+        android:textColor="@color/m_TxtColor"
+        app:layout_constraintBottom_toTopOf="@+id/deleteBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

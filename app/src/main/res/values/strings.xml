@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">e-Tution +</string>
+
+    <!--activity-attendance-->
+    <string name="a_name">  Name</string>
+    <string name="a_Class">Class</string>
+    <string name="a_Subject">Subject</string>
+    <string name="a_markBtn">Mark Attendance</string>
+    <string name="a_View">View</string>
+
+
+    <!--activity-delete-->
+    <string name="d_id">ID</string>
+    <string name="d_DeleteBtn">Delete</string>
+
+
+    <!--activity-menu-->
+    <string name="m_deleteBtn">Delete</string>
+    <string name="m_newBtn">New</string>
+    <string name="m_updateBtn">Update</string>
+    <string name="m_viewBtn">View</string>
+
+
+    <!--activity-update-->
+    <string name="u_id">ID</string>
+    <string name="u_name">Name</string>
+    <string name="u_Class">Class</string>
+    <string name="u_Subject">Subject</string>
+    <string name="u_markBtn">Mark Attendance</string>
+    <string name="u_View">View</string>
+    <string name="u_updateBtn">Update</string>
+
+</resources>
